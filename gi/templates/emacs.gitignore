@@ -1,0 +1,20 @@
+# Emacs backup and autosave files
+*~
+\#*\#
+.\#*
+
+# Emacs desktop / session
+/.emacs.desktop
+/.emacs.desktop.lock
+auto-save-list
+tramp
+
+# Compiled elisp
+*.elc
+
+# Org mode
+.org-id-locations
+*_archive
+
+# Ctags
+TAGS

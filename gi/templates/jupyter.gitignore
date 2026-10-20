@@ -1,0 +1,23 @@
+# Jupyter checkpoints
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# nteract
+/nteract_*
+
+# Environments
+.venv/
+venv/
+.env
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Uncomment to ignore executed notebooks (keeps diffs clean)
+# *.ipynb

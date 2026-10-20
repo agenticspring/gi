@@ -1,0 +1,20 @@
+# Vim swap files
+*.swp
+*.swo
+*.swn
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+
+# Vim backup files
+*~
+[._]*.un~
+
+# Vim sessions
+Session.vim
+Sessionx.vim
+
+# Netrw history
+.netrwhist
+
+# Ctags
+tags

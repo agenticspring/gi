@@ -1,0 +1,19 @@
+# Temporary files
+*~
+
+# KDE
+.directory
+
+# GNOME
+.goutputstream-*
+
+# Trash
+.Trash-*
+
+# FUSE hidden files
+.fuse_hidden*
+
+# Backups
+*.bak
+*.swp
+*.swo

@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gi"
+version = "1.0.0"
+description = "gi: offline .gitignore generator - gi python node > .gitignore. 22 bundled templates, zero deps."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "agenticspring" }]
+keywords = ["gitignore", "git", "cli", "templates", "developer-tools"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Software Development :: Version Control :: Git",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+gi = "gi.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/agenticspring/gi"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["gi*"]
+
+[tool.setuptools.package-data]
+gi = ["templates/*.gitignore"]

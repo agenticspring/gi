@@ -1,0 +1,12 @@
+# JetBrains IDEs (IntelliJ, PyCharm, WebStorm, Rider, ...)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Rider
+*.sln.iml
+
+# Patch files
+*.orig

@@ -1,0 +1,21 @@
+# Windows thumbnail cache
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Desktop configuration
+Desktop.ini
+
+# Recycle bin
+$RECYCLE.BIN/
+
+# Shortcuts
+*.lnk
+
+# System volume information
+System Volume Information/
+
+# Temporary files
+*.tmp
+*~

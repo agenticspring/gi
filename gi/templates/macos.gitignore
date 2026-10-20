@@ -1,0 +1,25 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Spotlight
+.Spotlight-V100
+.Trashes
+
+# Finder
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Extended attributes
+*.xattr
+
+# iCloud
+*.icloud
+
+# Temporary files
+*.tmp
+*~

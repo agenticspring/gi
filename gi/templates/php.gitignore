@@ -1,0 +1,47 @@
+# Composer
+/vendor/
+composer.phar
+
+# Symfony
+/var/
+/public/bundles/
+/.env.local
+/.env.local.php
+
+# Laravel
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+.env
+.env.backup
+.env.production
+.phpunit.cache
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# CakePHP
+/tmp/
+/logs/
+
+# WordPress
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+sitemap.xml
+*.log
+
+# PHPUnit
+.phpunit.result.cache
+
+# macOS
+.DS_Store
